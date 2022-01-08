@@ -1,0 +1,101 @@
+.position {
+  color: #313131;
+  font-size: 100px;
+  animation: colorchange 2s infinite alternate;
+}
+
+@keyframes colorchange {
+  0% {
+    color: #b300ff;
+  }
+
+  10% {
+    color: #6200a8;
+  }
+
+  20% {
+    color: #ffffff;
+  }
+
+  30% {
+    color: #00ff00;
+  }
+
+  40% {
+    color: #ffff00;
+  }
+
+  50% {
+    color: #ff7f00;
+  }
+
+  60% {
+    color: #ff0000;
+  }
+
+  70% {
+    color: #02fff2;
+  }
+  80% {
+    color: #ad4a4a;
+  }
+
+  90% {
+    color: yellow;
+  }
+
+  100% {
+    color: #00ff00;
+  }
+}
+
+.Link {
+  padding: 5px 10px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  /* background: green; */
+}
+
+.ref_div {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 450px) {
+  .para {
+    width: 60vw;
+  }
+
+  .ref_div {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Realbutton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+}
+
+.dataGrid {
+  background: rgb(209, 209, 209);
+  backdrop-filter: blur(50px);
+  color: black;
+  margin-top: 30px;
+}
+
+/* rgba(255, 255, 255, 0.2); */
